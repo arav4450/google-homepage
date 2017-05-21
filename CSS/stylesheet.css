@@ -1,0 +1,102 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: small;
+  color: #222;
+  width: 100%;
+  overflow: hidden;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#menu {
+  font-size: 13px;
+  margin: 0px 45px 2px 0;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  padding-left: 15px;
+}
+#app {
+  position: relative;
+  top: 8px;
+}
+#signin {
+  border: 1px solid #6384f5;
+  padding: 5px;
+  color: #f5f5f8;
+  background: #4285f4;
+}
+#main {
+  position: relative;
+  text-align: center;
+  clear: right;
+  top: 150px;
+}
+#logo_text {
+  position: relative;
+  color: #4285f4;
+  font: 16px roboto-regular,arial,sans-serif;
+  left: 100px;
+  bottom: 25px;
+}
+#textbox input {
+  height: 28px;
+  width: 566px;
+  padding: 4px 9px 6px;
+  border: 1px solid #e4e4e4;
+
+}
+#textbox input:active {
+  border: 1px solid #e4e4e4;
+}
+#buttons input {
+  width : 150px;
+  height: 36px;
+  padding: 0 16px;
+  margin: 30px 2px 25px 2px;
+  border: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #6c707c;
+}
+#subtext a {
+  padding-left: 3px;
+  color: #1d33a3;
+}
+#footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  padding: 10px;
+}
+#footer li {
+  padding-left: 30px;
+}
+#menuL {
+  text-align: left;
+  float: left;
+  margin: 1px 0px 2px 0px;
+  line-height: 23px;
+  font-size: 13px;
+}
+#menuR {
+  text-align: right;
+  float: right;
+  margin: 1px 35px 2px 0;
+  line-height: 23px;
+  font-size: 13px;
+}
